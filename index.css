@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@300&display=swap');
+
+body {
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:visited {
+	color: #3781f0;
+	text-decoration: none;
+}
+
+a:link {
+	color: #3781f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2458a6;
+	text-decoration: none;
+}
+
+.App {
+	margin: auto;
+	width: 90%;
+}
+
+@media (min-width: 1000px) {
+	.App {
+		margin: auto;
+		width: 900px;
+	}
+}
